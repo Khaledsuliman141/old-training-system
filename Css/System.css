@@ -1,0 +1,357 @@
+/*my rulz */
+body
+{
+    background-color: #f0f0f0;
+    font-family: Georgia, serif;
+    line-height: 25px
+}
+
+.container
+{
+    width: 1170px;
+    margin: auto
+}
+
+.clear-fix
+{
+    clear: both
+}
+
+/*Start Header */
+header
+{
+    background-image: url(../Images/1.jpg);
+    background-size: cover;
+    height: 820px
+}
+
+header nav
+{
+    background-color: #96eca3;
+    margin: auto;
+    height: 80px;
+    overflow: visible
+}
+
+header nav .container h2
+{
+    float: left;
+    color: #fff;
+    margin: 25px;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+header nav .container ul
+{
+    float: right;
+    list-style: none
+}
+
+header nav .container ul li
+{
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    padding: 20px;
+    border-radius: 5px
+}
+
+header nav .container ul li a
+{
+    text-decoration: none;
+    color: #fff
+}
+
+header nav .container ul li:hover
+{
+    background-color: #009999;
+    color: #ff0
+}
+
+header .container h1
+{
+    margin: auto;
+    padding-top: 300px;
+    color: #fff
+}
+
+header .container p
+{
+    width: 600px;
+    color: #f4f4f4
+}
+
+header .container button
+{
+    background-color: #96eca3;
+    color: #fff;
+    height: 40px;
+    width: 160px;
+    margin: 6px;
+    border:  2px solid #96eca3;
+    cursor: pointer
+}
+
+header .container button:hover
+{
+    background: none;
+    color: #fff;
+    border:  2px solid #96eca3;
+    cursor: pointer
+}
+
+header .container .right
+{
+    background: none;
+    color: #fff;
+    border:  2px solid #96eca3;
+    cursor: pointer
+}
+
+header .container .right:hover
+{
+     background-color: #96eca3;
+    color: #fff;
+    border:  2px solid #96eca3;
+    cursor: pointer
+}
+/*End Header */
+
+/*Start 1st s */
+
+.first
+{
+    text-align: center;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.first .container div
+{
+    float: left;
+    width: 31%;
+    margin: 1%
+}
+
+.first .container h2
+{
+    color: #595959
+}
+
+.first .container div i
+{
+    display: block;
+    color: #96eca3;
+    margin: 20px
+}
+
+.first .container div a
+{
+    text-decoration: none;
+    color: #595959;
+}
+
+.first .container div a:hover
+{
+    color: #96eca3
+}
+
+.first .container p
+{
+    color: #595959
+}
+/*End 1st s */
+
+/*Start 2nd s */
+
+.second
+{
+    background-color: #96eca3;
+    text-align: center;
+    height: 740px;
+    margin: -20px
+}
+
+.second .container h2
+{
+    color: #595959;
+    padding: 60px
+}
+
+.second .container div
+{
+    float: left;
+    width: 24%;
+    height: 240px;
+    margin: .5%
+}
+
+.second .container .larg
+{
+    width: 49%
+}
+
+.second .container div img
+{
+    width: 98%;
+    height: 98%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px #3f3f3f;
+    cursor: pointer
+}
+/*End 2nd s */
+
+/*Start 3rd s */
+
+.third
+{
+    text-align: center
+}
+
+.third .container h2
+{
+    color: #595959;
+    padding: 60px
+}
+
+.third .container div
+{
+    float: left;
+    width: 31%;
+    margin: 1%;
+    color: #595959
+}
+
+.third .container div img
+{
+    height: 180px;
+    width: 240px;
+    border: 3px solid #96eca3;
+    border-radius: 50%
+}
+/*End 3rd s */
+
+/*Start 4th s */
+
+.fourth
+{
+    background-color: #96eca3;
+    text-align: center;
+    height: 300px;
+    margin-top: 450px;
+    color: #595959;
+}
+
+.fourth .container h2
+{
+    padding: 40px
+}
+
+.fourth .container button
+{
+    background: none;
+    color: #fff;
+    height: 40px;
+    width: 160px;
+    margin: 6px;
+    border:  2px solid #009999;
+    cursor: pointer
+}
+
+.fourth .container button:hover
+{
+     background: #009999
+}
+/*End 4th s */
+
+/*Start 5th s*/
+
+.fifth
+{
+    height: 450px;
+}
+
+.fifth .container h2
+{
+    padding: 40px;
+    text-align: center;
+    color: #595959
+}
+
+.fifth .container div
+{
+    float: left;
+    width: 50%;
+}
+
+.fifth .container div form
+{
+    text-align: center
+}
+
+.fifth .container div form input
+{
+    display: block;
+    width: 70%;
+    margin-bottom: 10px
+}
+
+.fifth .container div form textarea
+{
+    display: block;
+    width: 70%;
+    height: 180px
+}
+
+.fifth .container div h3
+{
+    margin-top: -10px;
+    color: #595959
+}
+
+.fifth .container div p
+{
+    color: #595959;
+    margin-bottom: 50px
+}
+
+.fifth .container div button
+{
+    background: none;
+    color: #009999;
+    height: 40px;
+    width: 160px;
+    margin: 6px;
+    border:  2px solid #009999;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.fifth .container div button:hover
+{
+    background-color: #009999;
+    color: #fff
+}
+/*End 5th s*/
+
+/*Start footer */
+
+footer
+{
+    background-color: #b2b2b2;
+    color: #f0f0f0;
+    height: 60px;
+}
+
+footer .container p
+{
+    float: left;
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+footer .container span
+{
+    float: right;
+    margin: 18px
+}
+/*End footer */
